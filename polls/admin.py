@@ -7,6 +7,7 @@ from polls.models import Poll,Choice;
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
+
 class PollAdmin(admin.ModelAdmin):
     fieldsets = [
         (None,               {'fields': ['question']}),
@@ -15,4 +16,4 @@ class PollAdmin(admin.ModelAdmin):
 
     inlines = [ChoiceInline]
 
-admin.site.register(Poll,)
+admin.site.register(Poll,PollAdmin)
