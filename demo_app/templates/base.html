@@ -7,12 +7,14 @@
     <title>django-bootstrap-toolkit = Bootstrap support for Django</title>
     <meta name="description" content="">
     <meta name="author" content="Dylan Verheul">
-    <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-        body {
-            padding-top: 60px;
-        }
-    </style>
+<!-- Le styles -->
+    <link href="{{STATIC_URL}}css/bootstrap.css" rel="stylesheet">
+    <style>
+     body {
+            padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+          }
+     </style>
+     <link href="{{STATIC_URL}}css/bootstrap-responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
