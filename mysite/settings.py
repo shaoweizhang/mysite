@@ -101,10 +101,10 @@ TEMPLATE_DIRS = [
         os.path.join(BASE_DIR, 'templates')
     ]
 
-BOOTSTRAP_BASE_URL      = os.path.join(STATIC_ROOT, 'bootstrap')
-BOOTSTRAP_CSS_BASE_URL  = os.path.join(BOOTSTRAP_BASE_URL, 'css')
+BOOTSTRAP_BASE_URL      = os.path.join(STATIC_ROOT, 'bootstrap/')
+BOOTSTRAP_CSS_BASE_URL  = os.path.join(BOOTSTRAP_BASE_URL, 'css/')
 #BOOTSTRAP_CSS_URL       = BOOTSTRAP_CSS_BASE_URL + 'bootstrap.css'
-BOOTSTRAP_JS_BASE_URL   = os.path.join(BOOTSTRAP_BASE_URL, 'js')
+BOOTSTRAP_JS_BASE_URL   = os.path.join(BOOTSTRAP_BASE_URL, 'js/')
 # Enable for single bootstrap.js file
 #BOOTSTRAP_JS_URL        = BOOTSTRAP_JS_BASE_URL + 'bootstrap.js'
 STATICFILES_DIRS = (
