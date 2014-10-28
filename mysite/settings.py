@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'demo_app',
     'bootstrap3',
     'trybootstrap3',
+    'demo',
 )
 
 MIDDLEWARE_CLASSES = (
