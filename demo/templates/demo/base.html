@@ -15,31 +15,31 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#">Django Bootstrap3</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="{% url 'demo:home' %}">home</a>
-        <li><a href="{% url 'demo:formset_default' %}">formset</a>
+        <li><a href="{% url 'demo:home' %}">Home</a>
+        <li><a href="{% url 'demo:formset_default' %}">Formset</a>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forms <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="{% url 'demo:form_default' %}">form</a>
-            <li><a href="{% url 'demo:form_by_field' %}">form_by_field</a>
-            <li><a href="{% url 'demo:form_horizontal' %}">form_horizontal</a>
-            <li><a href="{% url 'demo:form_inline' %}">form_inline</a>
-            <li><a href="{% url 'demo:form_with_files' %}">form_with_files</a>
+            <li><a href="{% url 'demo:form_default' %}">Form</a>
+            <li><a href="{% url 'demo:form_by_field' %}">Form_by_field</a>
+            <li><a href="{% url 'demo:form_horizontal' %}">Form_horizontal</a>
+            <li><a href="{% url 'demo:form_inline' %}">Form_Inline</a>
+            <li><a href="{% url 'demo:form_with_files' %}">Form_with_files</a>
           </ul>
         </li>
-        <li><a href="{% url 'demo:pagination' %}">pagination</a>
-        <li><a href="{% url 'demo:misc' %}">miscellaneous</a>
+        <li><a href="{% url 'demo:pagination' %}">Pagination</a>
+        <li><a href="{% url 'demo:misc' %}">Miscellaneous</a>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    
+
     <div class="container">
         <h1>{% block title %}(no title){% endblock %}</h1>
 
