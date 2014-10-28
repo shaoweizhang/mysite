@@ -23,32 +23,26 @@
       <ul class="nav navbar-nav">
         <li><a href="{% url 'demo:home' %}">home</a>
         <li><a href="{% url 'demo:formset_default' %}">formset</a>
-        <li><a href="{% url 'demo:form_default' %}">form</a>
-        <li><a href="{% url 'demo:form_by_field' %}">form_by_field</a>
-        <li><a href="{% url 'demo:form_horizontal' %}">form_horizontal</a>
-        <li><a href="{% url 'demo:form_inline' %}">form_inline</a>
-        <li><a href="{% url 'demo:form_with_files' %}">form_with_files</a>
-        <li><a href="{% url 'demo:pagination' %}">pagination</a>
-        <li><a href="{% url 'demo:misc' %}">miscellaneous</a>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="{% url 'demo:form_default' %}">form</a>
+            <li><a href="{% url 'demo:form_by_field' %}">form_by_field</a>
+            <li><a href="{% url 'demo:form_horizontal' %}">form_horizontal</a>
+            <li><a href="{% url 'demo:form_inline' %}">form_inline</a>
+            <li><a href="{% url 'demo:form_with_files' %}">form_with_files</a>
           </ul>
         </li>
+        <li><a href="{% url 'demo:pagination' %}">pagination</a>
+        <li><a href="{% url 'demo:misc' %}">miscellaneous</a>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+    
     <div class="container">
         <h1>{% block title %}(no title){% endblock %}</h1>
-    
+
         {% bootstrap_messages %}
 
         {% block content %}(no content){% endblock %}
