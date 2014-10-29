@@ -4,11 +4,7 @@ A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themefores
 Licensed under MIT
 -->
 {% extends 'demo/base.html' %}
-<head>
-    <meta charset="utf-8">
-    <link href="{{STATIC_URL}}demo_css/line_tabs.css" rel="stylesheet">
-    {% block extra_head %}{% endblock %}
-</head>
+{% block extracss %} <link href="{% static 'demo_css/line_tabs.css' %}" rel="stylesheet" /> {% endblock %}
 
 {% block content %}
 <div class="container">
