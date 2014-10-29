@@ -12,11 +12,15 @@ Licensed under MIT
 
 /* Default mode */
 .tabbable-line > .nav-tabs {
+  text-align: center;
   border: none;
-  margin: 0px;
 }
 .tabbable-line > .nav-tabs > li {
+  float: none;
+  display: inline-block;
   margin-right: 2px;
+  text-align: center;
+  width: 120px;
 }
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
