@@ -32,5 +32,5 @@ urlpatterns = patterns('',
     url(r'^form_with_files$', FormWithFilesView.as_view(), name='form_with_files'),
     url(r'^pagination$', PaginationView.as_view(), name='pagination'),
     url(r'^misc$', MiscView.as_view(), name='misc'),
-    url(r'^line_tabs$', TemplateView.as_view(template_name='demo.line_tabs.html'), name='line_tabs'),
+    url(r'^line_tabs$', TemplateView.as_view(template_name='demo/line_tabs.html'), name='line_tabs'),
 )
