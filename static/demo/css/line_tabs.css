@@ -89,3 +89,36 @@ Licensed under MIT
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
 }
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.carousel-indicators li{
+    background: url(static/demo_img/indicator.png) no-repeat;
+    max-width:25%;
+    max-height:15%; /*or any other percentage that would look good*/
+    cursor: pointer;
+    text-align:center;
+}

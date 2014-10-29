@@ -112,9 +112,11 @@ BOOTSTRAP_JS_BASE_URL   = os.path.join(BOOTSTRAP_BASE_URL, 'js/')
 #BOOTSTRAP_JS_URL        = BOOTSTRAP_JS_BASE_URL + 'bootstrap.js'
 DEMO_BASE_URL		= os.path.join(STATIC_ROOT, 'demo')
 DEMO_CSS_BASE_URL	= os.path.join(DEMO_BASE_URL, 'css/')
+DEMO_IMG_BASE_URL   = os.path.join(DEMO_BASE_URL, 'img/')
 STATICFILES_DIRS = (
     ('css', BOOTSTRAP_CSS_BASE_URL),
     ('js',  BOOTSTRAP_JS_BASE_URL),
     ('demo_css', DEMO_CSS_BASE_URL),
+    ('demo_img', DEMO_IMG_BASE_URL),
     STATIC_URL,
 )
