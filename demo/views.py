@@ -18,6 +18,12 @@ class FakeField(object):
 
 fieldfile = FieldFile(None, FakeField, 'dummy.txt')
 
+class LineTabsView(TemplateView):
+    template_name = 'demo/line_tabs.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(LineTabsView, self).get_context_data(**kwargs)
+        return context
 
 class HomePageView(TemplateView):
     template_name = 'demo/home.html'
