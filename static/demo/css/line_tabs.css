@@ -114,11 +114,3 @@ Licensed under MIT
     color: #000;
     background-color: #FFF;
 }
-
-.carousel-indicators li{
-    background: url(static/demo_img/indicator.png) no-repeat;
-    max-width:25%;
-    max-height:15%; /*or any other percentage that would look good*/
-    cursor: pointer;
-    text-align:center;
-}
