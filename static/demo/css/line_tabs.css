@@ -115,7 +115,7 @@ Licensed under MIT
     background-color: #FFF;
 }
 
-.img {
+.foods_img {
     margin: 5px;
     padding: 5px;
     border: 1px solid #0000ff;
@@ -125,12 +125,12 @@ Licensed under MIT
     text-align: center;
 }
 
-.img > .img {
+.foods_img > .img {
     display: inline;
     margin: 5px;
     border: 1px solid #ffffff;
 }
 
-.img > a:hover > img {
+.foods_img > a:hover > img {
     border: 1px solid #0000ff;
 }
