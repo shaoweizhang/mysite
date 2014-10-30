@@ -125,12 +125,12 @@ Licensed under MIT
     text-align: center;
 }
 
-.img img {
+.img > .img {
     display: inline;
     margin: 5px;
     border: 1px solid #ffffff;
 }
 
-.img a:hover img {
+.img > a:hover > img {
     border: 1px solid #0000ff;
 }
