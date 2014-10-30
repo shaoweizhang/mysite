@@ -116,21 +116,30 @@ Licensed under MIT
 }
 
 .foods_img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #0000ff;
+    margin: 0;
+    padding-right: 10px;
+    padding-top: 10px;
     height: auto;
     width: auto;
     float: left;
     text-align: center;
 }
 
-.foods_img > .img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
+.foods_img_3 {
+    margin: 0;
+    padding-top: 10px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
 }
 
+.foods_img_3 > a > img
+.foods_img > a > img {
+    display: inline;
+}
+
+.foods_img_3 > a:hover > img
 .foods_img > a:hover > img {
-    border: 1px solid #0000ff;
+    border: 0;
 }
